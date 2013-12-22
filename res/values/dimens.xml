@@ -1,0 +1,5 @@
+<resources>
+	<dimen name="radius_settingitem">5.0dip</dimen>
+	
+	<dimen name="diff_button_widthandheight">80dip</dimen>
+</resources>

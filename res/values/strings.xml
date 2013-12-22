@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Bluetooth Chat</string>
+
+    <!-- BluetoothChat -->
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device!</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">Connecting&#8230;</string>
+    <string name="title_connected_to">Connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">Not connected!</string>
+    <string name="title_connected">Connected to: </string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">Scanning for devices&#8230;</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_paired_devices2">(Recommended pairing devices which are connected with high frequency in the system Bluetooth settings)</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="title_other_devices2">(Need to search every time)</string>
+    <string name="title_hint_searchnew">Tips 1: Click the first button on the right side of the title bar search for new devices, click the second button to make self available to be searched.
+        \n\nTips 2: Talk is co-sponsored by the two sides on the need each other in the list, click on Start ready.</string>
+    <string name="lanyanotvalid">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="inputhere">Input message</string>
+    <string name="scannewdevice">Scan for devices</string>
+    <string name="makeselfavaiable">Make discoverable</string>
+    <string name="nonamedevice">Unnamed Devices</string>
+    
+    <string name="hint_haotoconnect">For both parties to talk each other in the list, click to enter this interface, then click on the title bar on the right side of the Bluetooth button to connect.</string>
+    <string name="hint_iffailed">If that fails, you can try to connect by another party, or restart the application and try again.</string>
+    
+    <string name="hint_notsaverecord">Note: The chats will not be saved</string>
+    <string name="hint_leavemeiyoule">Leave this page, there is no historical record</string>
+    <string name="hint_copytoclip">You can long press the message to copy to the clipboard or screencast</string>
+    
+    <string name="toast_messagecopytoclip">This record has been copied to the clipboard</string>
+    
+    <string name="status_ready_toconnect">Ready, click on the right button to connect</string>
+    <string name="imagebuttondesc">imagebutton</string>
+
+</resources>

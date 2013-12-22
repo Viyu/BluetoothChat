@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="ActivityTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="MainStyle">
+        <item name="android:background">@drawable/background_main</item>
+    </style>
+
+    <style name="SerifFontStyle">
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <style name="SerifFontStyle.DeviceListButtonStyle">
+        <item name="android:background">@drawable/shape_rounditem</item>
+        <item name="android:paddingTop">10dip</item>
+        <item name="android:paddingBottom">10dip</item>
+        <item name="android:layout_marginTop">5dip</item>
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:layout_marginRight">10dip</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="DeviceTitleBarStyle">
+        <item name="android:background">@drawable/shape_devicetitle</item>
+    </style>
+
+    <style name="SerifFontStyle.DeviceListTitleStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingLeft">5dip</item>
+    </style>
+
+    <style name="SerifFontStyle.DeviceListItemStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10dip</item>
+    </style>
+
+    <style name="SerifFontStyle.TitleTextStyle">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="SerifFontStyle.InputTextStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@drawable/login_editbox</item>
+    </style>
+
+    <style name="SerifFontStyle.SendMessageButtonStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/chat_send_btn</item>
+    </style>
+
+    <style name="Title_Bar_Style">
+        <item name="android:background">@drawable/title_bar</item>
+    </style>
+
+    <style name="AdsContainerStyle">
+        <item name="android:background">@drawable/title_bar</item>
+    </style>
+
+    <style name="SerifFontStyle.LeftMessageItemStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@drawable/chatfrom_bg</item>
+        <item name="android:textIsSelectable">true</item>
+    </style>
+
+    <style name="SerifFontStyle.RightMessageItemStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@drawable/chatto_bg</item>
+        <item name="android:textIsSelectable">true</item>
+    </style>
+
+    <style name="SerifFontStyle.HintMessageItemStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">left</item>
+        <item name="android:background">@drawable/shape_hintmessage</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">7dip</item>
+        <item name="android:paddingRight">7dip</item>
+    </style>
+
+    <style name="MessageListViewStyle">
+        <item name="android:listSelector">@color/transparent</item>
+        <item name="android:cacheColorHint">@color/transparent</item>
+        <item name="android:divider">@null</item>
+    </style>
+
+    <style name="Title_Bar_SearcDeviceButtonStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:src">@drawable/icon_searchnewdevice</item>
+        <item name="android:background">@drawable/background_button</item>
+    </style>
+
+    <style name="Title_Bar_MakeSelfVisibleButtonStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:src">@drawable/icon_makevisible</item>
+        <item name="android:background">@drawable/background_button</item>
+    </style>
+
+    <style name="Title_Bar_BackButton_Style">
+        <item name="android:src">@drawable/icon_backbutton</item>
+        <item name="android:background">@drawable/background_button</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="Title_Bar_ConnectButton_Style">
+        <item name="android:src">@drawable/icon_toconnecting</item>
+        <item name="android:background">@drawable/background_button</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+</resources>

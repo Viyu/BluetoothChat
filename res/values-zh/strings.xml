@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">蓝牙对聊</string>
+
+    <!-- BluetoothChat -->
+    <string name="send">发送</string>
+    <string name="not_connected">还没有连接到设备</string>
+    <string name="bt_not_enabled_leaving">蓝牙不可用，应用即将退出！</string>
+    <string name="title_connecting">连接中&#8230;</string>
+    <string name="title_connected_to">已连接到 <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">没有连接</string>
+    <string name="title_connected">连接到了: </string>
+
+    <!-- DeviceListActivity -->
+    <string name="scanning">扫描聊天对象中&#8230;</string>
+    <string name="none_paired">没有配对的设备</string>
+    <string name="none_found">没有发现新的设备</string>
+    <string name="title_paired_devices">已配对设备（建议在系统蓝牙设置里先配对要经常聊天的设备）</string>
+    <string name="title_other_devices">其它可见设备（每次都需要搜索才显示的设备）</string>
+    <string name="title_hint_searchnew">提示1：点击标题栏右侧第一个按钮搜索新设备，点击第二个按钮使自己可被搜索到。\n\n提示2：对聊是双方共同发起的，需要各自在列表中点击对方开始就绪。</string>
+    <string name="lanyanotvalid">蓝牙不可用，应用即将退出！</string>
+    <string name="inputhere">输入消息</string>
+    <string name="scannewdevice">扫描新设备</string>
+    <string name="makeselfavaiable">使蓝牙可见</string>
+    <string name="nonamedevice">未命名设备</string>
+    
+    <string name="hint_haotoconnect">对聊双方都要在列表中点击对方进入这个界面，然后由一方点击标题栏右侧的蓝牙按钮进行连接。</string>
+    <string name="hint_iffailed">如果失败，可尝试由另一方连接，或者重启应用再试。</string>
+    
+    <string name="hint_notsaverecord">注意：聊天记录不会保存</string>
+    <string name="hint_leavemeiyoule">离开此页面历史记录就没有了</string>
+    <string name="hint_copytoclip">可以长摁消息以复制到剪切板或者截屏</string>
+    
+    <string name="toast_messagecopytoclip">该条记录已经复制到剪切板</string>
+    
+    <string name="status_ready_toconnect">就绪，点击右侧按钮连接</string>
+    <string name="imagebuttondesc">imagebutton</string>
+
+</resources>

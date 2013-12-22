@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/Title_Bar_Style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/page_devicelist_titlebartextview"
+            style="@style/SerifFontStyle.TitleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/app_name" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/page_devicelist_search"
+                style="@style/Title_Bar_SearcDeviceButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/imagebuttondesc"
+                android:onClick="searchDevice" />
+
+            <ImageButton
+                android:id="@+id/page_devicelist_makevisible"
+                style="@style/Title_Bar_MakeSelfVisibleButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/imagebuttondesc"
+                android:onClick="makeVisible" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="6dip" >
+
+        <TextView
+            style="@style/SerifFontStyle.HintMessageItemStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dip"
+            android:text="@string/title_hint_searchnew" />
+    </LinearLayout>
+
+    <RelativeLayout
+        style="@style/DeviceTitleBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/page_devicelist_title_yipeiduitextview"
+            style="@style/SerifFontStyle.DeviceListTitleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/title_paired_devices" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/page_devicelist_paireddevices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stackFromBottom="true" />
+
+    <RelativeLayout
+        style="@style/DeviceTitleBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/page_devicelist_title_xinshebeitextview"
+            style="@style/SerifFontStyle.DeviceListTitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/title_other_devices" />
+
+        <ProgressBar
+            android:id="@+id/devicelist_progressbar"
+            style="?android:attr/progressBarStyleSmallTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/page_devicelist_newdevices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stackFromBottom="true" />
+
+</LinearLayout>

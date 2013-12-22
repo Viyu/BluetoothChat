@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetBottom="1.0px"
+    android:insetLeft="1.0px"
+    android:insetRight="1.0px"
+    android:insetTop="1.0px" >
+
+    <selector>
+        <item android:state_pressed="true">
+            <shape>
+                <gradient
+                    android:angle="270.0"
+                    android:endColor="@color/metal_silver"
+                    android:startColor="@color/diff_option_pressed_start" />
+				
+                <corners android:radius="@dimen/radius_settingitem" />
+
+                <stroke
+                    android:width="1dip"
+                    android:color="@color/metal_silver" />
+            </shape>
+        </item>
+         <item android:state_enabled="false">
+            <shape>
+                <gradient
+                    android:angle="270.0"
+                    android:endColor="@color/metal_silver_half"
+                    android:startColor="@color/diff_option_pressed_start" />
+				
+                <corners android:radius="@dimen/radius_settingitem" />
+
+                <stroke
+                    android:width="1dip"
+                    android:color="@color/metal_silver_half" />
+            </shape>
+        </item>
+        <item>
+            <shape>
+                <gradient
+                    android:angle="270.0"
+                    android:endColor="@color/diff_option_normal_start"
+                    android:startColor="@color/diff_option_normal_end" />
+
+                <corners android:radius="@dimen/radius_settingitem" />
+
+                <stroke
+                    android:width="1dip"
+                    android:color="@color/metal_silver" />
+            </shape>
+        </item>
+    </selector>
+
+</inset>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MainStyle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/Title_Bar_Style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/chatpage_backbutton"
+            style="@style/Title_Bar_BackButton_Style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="5dip"
+            android:contentDescription="@string/imagebuttondesc" />
+
+        <TextView
+            android:id="@+id/chatpage_titlebartextview"
+            style="@style/SerifFontStyle.TitleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <ImageButton
+            android:id="@+id/chatpage_connect"
+            style="@style/Title_Bar_ConnectButton_Style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dip"
+            android:contentDescription="@string/imagebuttondesc" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/chatpage_talkcontentlistview"
+        style="@style/MessageListViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_marginBottom="5dip"
+        android:layout_weight="1"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll" />
+
+    <LinearLayout
+        style="@style/Title_Bar_Style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dip" >
+
+        <EditText
+            android:id="@+id/chatpage_inputmessageedittext"
+            style="@style/SerifFontStyle.InputTextStyle"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:hint="@string/inputhere" />
+
+        <Button
+            android:id="@+id/button_send"
+            style="@style/SerifFontStyle.SendMessageButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/send" />
+    </LinearLayout>
+
+</LinearLayout>
